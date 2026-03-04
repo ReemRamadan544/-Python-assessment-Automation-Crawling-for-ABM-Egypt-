@@ -1,8 +1,0 @@
-playwright
-requests
-beautifulsoup4
-lxml
-pillow
-numpy
-python-dotenv
-tenacity
