@@ -1,0 +1,4 @@
+chrome-profile/
+src/**/outputs/
+*.mp4
+*.webm
