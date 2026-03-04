@@ -1,0 +1,27 @@
+# AI/LLM Usage (ChatGPT / Gemini / Claude)
+
+LLM tools were used as a lightweight assistant for requirement clarification, implementation brainstorming, and documentation cleanup. The prompts below are example prompt patterns commonly useful for this type of assessment (not an exact transcript).
+
+## Example prompt patterns
+
+Task 1 (automation + retries + reporting)
+- Suggest a Playwright structure to repeat a flow 10 times and compute success rate.
+- How to wait for and read the cf-turnstile-response token safely?
+- What attempt-level evidence should be logged (JSON schema + screenshots) for review?
+
+Task 2 (network interception + token injection)
+- How to block/intercept specific requests in Playwright and capture request details?
+- How to inject a previously captured single-use token and submit without loading the widget?
+- What should be shown in the demo video to prove interception + successful verification?
+
+Task 3 (DOM scraping)
+- How to extract images from img tags, CSS background-image, and canvas, then export as Base64?
+- How to extract only visible text reliably (innerText vs textContent)?
+- How to export exactly 9 visible tiles from a 3x3 grid (screenshot + crop approach)?
+
+Task 4 (system diagram)
+- Draft a scalable architecture using RabbitMQ, horizontally scalable workers, SQL storage, and monitoring.
+- Where do retry queues, DLQ, replication, backups, and alerting fit in the design?
+
+## Validation
+All scripts were executed locally and outputs were verified by inspecting generated artifacts (JSON files, screenshots, and expected counts).
